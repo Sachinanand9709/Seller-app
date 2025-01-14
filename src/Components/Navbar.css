@@ -1,0 +1,37 @@
+.navbar {
+    background-color: #6CD9B5; /* Adjusted to match the green background in the screenshot */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    height: 72px;
+  }
+  
+  .navbar-container {
+    width: 100%;
+    padding: 0px 10px;
+    display: flex;
+    justify-content: space-between; /* Aligns menu items to the right */
+    align-items: center;
+  }
+  
+  .navbar-menu {
+    list-style: none;
+    display: flex;
+    gap: 30px; /* Space between menu items */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-item a {
+    text-decoration: none;
+    color: #000; /* Black text color */
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-item a:hover {
+    color: #555; /* Slightly darker text color on hover */
+  }
+  
