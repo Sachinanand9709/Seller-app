@@ -60,7 +60,7 @@ Start the frontend service:
 npm dev run 
 
 Open your browser and visit:
-Frontend: http://localhost:5175
+Frontend: http://localhost:5173
 Backend: http://localhost:8082
 
 Workflow:
